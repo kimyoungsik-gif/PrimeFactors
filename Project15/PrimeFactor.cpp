@@ -9,8 +9,13 @@ public:
 
 		if (num > 1) {
 			if (num == 4) {
-				result.push_back(2);
-				result.push_back(2);
+				if (num % 2 == 0) {
+					result.push_back(2);
+				}
+
+				if (num % 2 == 0) {
+					result.push_back(2);
+				}
 				return result;
 			}
 
