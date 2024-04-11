@@ -1,10 +1,12 @@
 #include "pch.h"
 #include "../Project15/PrimeFactor.cpp"
 
-TEST(TestCaseName, TestName) {
+using namespace std;
+
+TEST(TestCaseName, TestName1) {
 
 	PrimeFactor pf;
-
-	EXPECT_EQ(1, 1);
-	EXPECT_TRUE(true);
+	auto ret = pf.of(1);
+	vector<int> expected = {};
+	EXPECT_EQ(ret, expected);
 }
