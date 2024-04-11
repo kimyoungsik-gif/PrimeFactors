@@ -29,10 +29,12 @@ public:
 					num /= divisor;
 				}
 
-				while (num % 3 == 0)
+				divisor = 3;
+
+				while (num % divisor == 0)
 				{
-					result.push_back(3);
-					num /= 3;
+					result.push_back(divisor);
+					num /= divisor;
 				}
 				return result;
 			}
