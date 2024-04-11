@@ -5,7 +5,10 @@ using namespace std;
 class PrimeFactor {
 public:
 	vector<int> of(int num) {
-		return vector<int>();
+
+		vector<int> result = {};
+
+		return result;
 	}
 
 };
