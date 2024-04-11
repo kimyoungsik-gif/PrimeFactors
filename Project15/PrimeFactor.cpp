@@ -12,8 +12,6 @@ public:
 			int divisor = 2;
 
 			if (num == 4) {
-				
-				
 				while (num % divisor == 0)
 				{
 					result.push_back(divisor);
@@ -30,6 +28,11 @@ public:
 					}
 				}
 				return result;
+			}
+
+			if (num == 9) {
+				result.push_back(3);
+				result.push_back(3);
 			}
 
 			result.push_back(num);
