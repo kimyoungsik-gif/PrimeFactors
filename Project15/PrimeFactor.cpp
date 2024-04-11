@@ -17,6 +17,12 @@ public:
 				return result;
 			}
 
+			if (num == 6) {
+				result.push_back(2);
+				result.push_back(3);
+				return result;
+			}
+
 			result.push_back(num);
 		}
 

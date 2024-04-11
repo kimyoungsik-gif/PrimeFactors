@@ -27,3 +27,8 @@ TEST_F(PrimeFixture, of4) {
 	expected = { 2, 2 };
 	EXPECT_EQ(PrimeFactor.of(4), expected);
 }
+
+TEST_F(PrimeFixture, of6) {
+	expected = { 2, 3 };
+	EXPECT_EQ(PrimeFactor.of(6), expected);
+}
